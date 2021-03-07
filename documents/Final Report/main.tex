@@ -1,0 +1,106 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twoside,twocolumn]{report}
+
+\usepackage{blindtext} % Package to generate dummy text throughout this template 
+
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[english]{babel} % Language hyphenation and typographical rules
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+
+\usepackage{enumitem} % Customized lists
+\setlist[itemize]{noitemsep} % Make itemize lists more compact
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\roman{subsection}} % roman numerals for subsections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{Parting the Clouds $\bullet$ \today $\bullet$ 16019243} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+\usepackage{titling} % Customizing the title section
+
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\usepackage{pdfpages}
+
+\usepackage[round]{natbib}
+
+
+\newcommand{\citefirstlastauthor}{\AtNextCite{\DeclareNameAlias{labelname}{given-family}}\citeauthor}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\begin{titlepage}
+
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Parting the Clouds: Moving Towards an Affordable Natural-Lighting Solution}
+            
+        \vspace{0.5cm}
+        \LARGE
+        16019243
+            
+        \vspace{1.5cm}
+            
+        \textbf{N. Appleton}
+            
+        \vfill
+            
+        Designing a modular, human-centric lighting system            
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Faculty of Environment and Technology\\
+        UWE\\
+        UFMFX8-30-3 \\
+        \today
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents \clearpage \newpage
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\input{LitReview}
+
+%----------------------------------------------------------------------------------------
+
+\clearpage
+\newpage
+\bibliographystyle{agsm}
+\bibliography{FYP}
+
+
+\end{document}
