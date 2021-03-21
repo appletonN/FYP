@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Nick\Documents\UniWork\3rd Year\Project\Hardware\Project\Project.sch</source>
-    <date>10/12/2020 17:32:00</date>
+    <date>10/03/2021 15:57:11</date>
     <tool>Eeschema (5.1.8)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -191,14 +191,6 @@
       <libsource lib="Device" part="D_TVS_x2_AAC" description="Bidirectional dual transient-voltage-suppression diode, center on pin 3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FC4186F</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>Micro_SD_Card</value>
-      <footprint>digikey-footprints:GCT_MEM2075-00-140-01-A</footprint>
-      <datasheet>http://katalog.we-online.de/em/datasheet/693072010801.pdf</datasheet>
-      <libsource lib="Connector" part="Micro_SD_Card" description="Micro SD Card Socket"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FC5C1A2</tstamp>
     </comp>
     <comp ref="U3">
       <value>DS3231M</value>
@@ -459,14 +451,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FC30DF5</tstamp>
     </comp>
-    <comp ref="J4">
-      <value>Conn_01x08_Male</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>604868AA</tstamp>
-    </comp>
     <comp ref="J5">
       <value>Conn_01x08_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
@@ -483,37 +467,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>608929CC</tstamp>
     </comp>
-    <comp ref="J15">
-      <value>Conn_01x08_Male</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="J3">
+      <value>Micro_SD_Card_Det</value>
+      <footprint>digikey-footprints:GCT_MEM2075-00-140-01-A</footprint>
+      <datasheet>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</datasheet>
+      <libsource lib="Connector" part="Micro_SD_Card_Det" description="Micro SD Card Socket with card detection pins"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>608D3535</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608A57ED</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608A60E6</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608A6717</tstamp>
+      <tstamp>60624371</tstamp>
     </comp>
     <comp ref="Q3">
       <value>Q_PNP_BCE</value>
@@ -531,221 +491,13 @@
       <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
       <tstamp>608B7DE3</tstamp>
     </comp>
-    <comp ref="D6">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608BBE1F</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608BBE25</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608BBE2B</tstamp>
-    </comp>
-    <comp ref="Q4">
-      <value>Q_PNP_BCE</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608BBE47</tstamp>
-    </comp>
-    <comp ref="R13">
+    <comp ref="R17">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608BBE57</tstamp>
-    </comp>
-    <comp ref="D9">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2DDC</tstamp>
-    </comp>
-    <comp ref="D10">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2DE2</tstamp>
-    </comp>
-    <comp ref="D11">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2DE8</tstamp>
-    </comp>
-    <comp ref="R20">
-      <value>180R</value>
-      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2DFA</tstamp>
-    </comp>
-    <comp ref="Q5">
-      <value>Q_PNP_BCE</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2E0A</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2E1A</tstamp>
-    </comp>
-    <comp ref="D12">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2E23</tstamp>
-    </comp>
-    <comp ref="D13">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2E29</tstamp>
-    </comp>
-    <comp ref="D14">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2E2F</tstamp>
-    </comp>
-    <comp ref="R21">
-      <value>180R</value>
-      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2E41</tstamp>
-    </comp>
-    <comp ref="Q6">
-      <value>Q_PNP_BCE</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2E4A</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608D2E5A</tstamp>
-    </comp>
-    <comp ref="D15">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC6BE</tstamp>
-    </comp>
-    <comp ref="D16">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC6C4</tstamp>
-    </comp>
-    <comp ref="D17">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC6CA</tstamp>
-    </comp>
-    <comp ref="R22">
-      <value>180R</value>
-      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC6DC</tstamp>
-    </comp>
-    <comp ref="Q7">
-      <value>Q_PNP_BCE</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC6EC</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC6FC</tstamp>
-    </comp>
-    <comp ref="D18">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC705</tstamp>
-    </comp>
-    <comp ref="D19">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC70B</tstamp>
-    </comp>
-    <comp ref="D20">
-      <value>LED</value>
-      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC711</tstamp>
-    </comp>
-    <comp ref="R23">
-      <value>180R</value>
-      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC723</tstamp>
+      <tstamp>608DC73C</tstamp>
     </comp>
     <comp ref="Q8">
       <value>Q_PNP_BCE</value>
@@ -755,13 +507,77 @@
       <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
       <tstamp>608DC72C</tstamp>
     </comp>
-    <comp ref="R17">
+    <comp ref="R16">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608DC73C</tstamp>
+      <tstamp>608DC6FC</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_PNP_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608DC6EC</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2E5A</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_PNP_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2E4A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2E1A</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_PNP_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2E0A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608BBE57</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_PNP_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608BBE47</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>180R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608B0F24</tstamp>
     </comp>
     <comp ref="R19">
       <value>180R</value>
@@ -771,13 +587,181 @@
       <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
       <tstamp>608BBE3D</tstamp>
     </comp>
-    <comp ref="R18">
+    <comp ref="R23">
       <value>180R</value>
       <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
-      <tstamp>608B0F24</tstamp>
+      <tstamp>608DC723</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608DC711</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608DC70B</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608DC705</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>180R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608DC6DC</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608DC6CA</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608DC6C4</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608DC6BE</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>180R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2E41</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2E2F</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2E29</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2E23</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>180R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2DFA</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2DE8</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2DE2</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608D2DDC</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608BBE2B</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608BBE25</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608BBE1F</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608A6717</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608A60E6</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>digikey-footprints:LED_L135-A589003500000</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Sheet608A4408/" tstamps="/608A4409/"/>
+      <tstamp>608A57ED</tstamp>
     </comp>
   </components>
   <libparts>
@@ -821,15 +805,18 @@
         <pin num="2" name="Ext" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Micro_SD_Card">
-      <description>Micro SD Card Socket</description>
-      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
+    <libpart lib="Connector" part="Micro_SD_Card_Det">
+      <aliases>
+        <alias>Micro_SD_Card_Det_Hirose_DM3AT</alias>
+      </aliases>
+      <description>Micro SD Card Socket with card detection pins</description>
+      <docs>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</docs>
       <footprints>
         <fp>microSD*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Micro_SD_Card</field>
+        <field name="Value">Micro_SD_Card_Det</field>
       </fields>
       <pins>
         <pin num="1" name="DAT2" type="BiDi"/>
@@ -840,7 +827,9 @@
         <pin num="6" name="VSS" type="power_in"/>
         <pin num="7" name="DAT0" type="BiDi"/>
         <pin num="8" name="DAT1" type="BiDi"/>
-        <pin num="9" name="SHIELD" type="passive"/>
+        <pin num="9" name="DET_B" type="passive"/>
+        <pin num="10" name="DET_A" type="passive"/>
+        <pin num="11" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="USB_B_Micro">
@@ -1313,481 +1302,467 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="RXD">
-      <node ref="J15" pin="4"/>
-      <node ref="J4" pin="5"/>
-      <node ref="U4" pin="20"/>
-      <node ref="U1" pin="34"/>
-    </net>
-    <net code="2" name="+3V3">
-      <node ref="R1" pin="2"/>
-      <node ref="U5" pin="2"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="J13" pin="1"/>
+    <net code="1" name="+3V3">
       <node ref="J13" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="J9" pin="1"/>
-      <node ref="J10" pin="1"/>
-      <node ref="U4" pin="5"/>
-      <node ref="R5" pin="2"/>
-      <node ref="U4" pin="6"/>
-      <node ref="U4" pin="7"/>
+      <node ref="J13" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C4" pin="1"/>
       <node ref="C6" pin="1"/>
-      <node ref="J4" pin="2"/>
-      <node ref="J4" pin="1"/>
-      <node ref="J15" pin="8"/>
-      <node ref="J15" pin="7"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C14" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="1"/>
       <node ref="R2" pin="2"/>
       <node ref="R3" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="U3" pin="2"/>
-      <node ref="J3" pin="4"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R11" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="S1" pin="1"/>
     </net>
-    <net code="3" name="Earth">
-      <node ref="U3" pin="11"/>
-      <node ref="U3" pin="10"/>
-      <node ref="J3" pin="9"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U2" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U3" pin="12"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="J13" pin="3"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="J6" pin="2"/>
-      <node ref="U5" pin="1"/>
-      <node ref="C15" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U1" pin="15"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="J8" pin="2"/>
-      <node ref="D1" pin="3"/>
-      <node ref="J10" pin="2"/>
-      <node ref="J9" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="U1" pin="39"/>
-      <node ref="U1" pin="38"/>
-      <node ref="C9" pin="2"/>
-      <node ref="J7" pin="2"/>
-      <node ref="U4" pin="25"/>
-      <node ref="C16" pin="2"/>
-      <node ref="J4" pin="8"/>
-      <node ref="J4" pin="7"/>
-      <node ref="U3" pin="13"/>
-      <node ref="J5" pin="8"/>
-      <node ref="S1" pin="C"/>
-      <node ref="U4" pin="2"/>
-      <node ref="S1" pin="3"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="J15" pin="2"/>
-      <node ref="J15" pin="1"/>
-      <node ref="BT1" pin="2"/>
-      <node ref="Q8" pin="2"/>
-      <node ref="U3" pin="5"/>
-      <node ref="J3" pin="6"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="J1" pin="6"/>
-      <node ref="J1" pin="5"/>
-      <node ref="D2" pin="3"/>
-      <node ref="Q5" pin="2"/>
-      <node ref="Q7" pin="2"/>
-      <node ref="U3" pin="9"/>
-      <node ref="J14" pin="1"/>
-      <node ref="U3" pin="8"/>
-      <node ref="U3" pin="7"/>
-      <node ref="U3" pin="6"/>
-      <node ref="Q6" pin="2"/>
-    </net>
-    <net code="4" name="TXD">
-      <node ref="U4" pin="21"/>
-      <node ref="U1" pin="35"/>
-      <node ref="J15" pin="5"/>
-      <node ref="J4" pin="4"/>
-    </net>
-    <net code="5" name="Net-(U4-Pad24)">
+    <net code="2" name="Net-(U4-Pad24)">
       <node ref="U4" pin="24"/>
     </net>
-    <net code="6" name="Net-(Q2-Pad2)">
-      <node ref="Q2" pin="2"/>
+    <net code="3" name="Net-(U4-Pad22)">
+      <node ref="U4" pin="22"/>
+    </net>
+    <net code="4" name="Net-(U4-Pad18)">
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="5" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="6" name="Net-(U4-Pad17)">
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="7" name="Net-(U4-Pad15)">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="8" name="Net-(U4-Pad16)">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="9" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="10" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="11" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="12" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="13" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="14" name="Earth">
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="39"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="U1" pin="38"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D1" pin="3"/>
+      <node ref="J10" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="8"/>
+      <node ref="D2" pin="3"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="J13" pin="3"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J5" pin="8"/>
+      <node ref="J14" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J3" pin="11"/>
+      <node ref="J3" pin="6"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J3" pin="10"/>
+      <node ref="S1" pin="C"/>
+      <node ref="U4" pin="25"/>
+      <node ref="C9" pin="2"/>
+      <node ref="S1" pin="3"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="15" name="/EncoderB">
+      <node ref="U1" pin="7"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="18" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad2)">
+      <node ref="U4" pin="4"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(Q2-Pad2)">
       <node ref="U4" pin="23"/>
+      <node ref="Q2" pin="2"/>
       <node ref="R6" pin="1"/>
     </net>
-    <net code="7" name="Net-(Q1-Pad2)">
+    <net code="21" name="Net-(Q1-Pad2)">
       <node ref="Q1" pin="2"/>
       <node ref="R7" pin="1"/>
       <node ref="U4" pin="19"/>
     </net>
-    <net code="8" name="Net-(U4-Pad1)">
+    <net code="22" name="Net-(U4-Pad1)">
       <node ref="U4" pin="1"/>
     </net>
-    <net code="9" name="Net-(U4-Pad10)">
-      <node ref="U4" pin="10"/>
+    <net code="23" name="/EncoderA">
+      <node ref="U1" pin="6"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R8" pin="1"/>
     </net>
-    <net code="10" name="Net-(R10-Pad2)">
+    <net code="24" name="Net-(R10-Pad2)">
       <node ref="S1" pin="A"/>
       <node ref="R8" pin="2"/>
       <node ref="R10" pin="2"/>
     </net>
-    <net code="11" name="Net-(U4-Pad22)">
-      <node ref="U4" pin="22"/>
-    </net>
-    <net code="12" name="Net-(U4-Pad18)">
-      <node ref="U4" pin="18"/>
-    </net>
-    <net code="13" name="Net-(U4-Pad9)">
-      <node ref="U4" pin="9"/>
-    </net>
-    <net code="14" name="Net-(U4-Pad17)">
-      <node ref="U4" pin="17"/>
-    </net>
-    <net code="15" name="Net-(U4-Pad15)">
-      <node ref="U4" pin="15"/>
-    </net>
-    <net code="16" name="Net-(U4-Pad16)">
-      <node ref="U4" pin="16"/>
-    </net>
-    <net code="17" name="Net-(U4-Pad11)">
-      <node ref="U4" pin="11"/>
-    </net>
-    <net code="18" name="Net-(U4-Pad12)">
-      <node ref="U4" pin="12"/>
-    </net>
-    <net code="19" name="Net-(U4-Pad13)">
-      <node ref="U4" pin="13"/>
-    </net>
-    <net code="20" name="Net-(U4-Pad14)">
-      <node ref="U4" pin="14"/>
-    </net>
-    <net code="21" name="/EncoderB">
-      <node ref="R9" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="22" name="/Button">
-      <node ref="U1" pin="8"/>
-      <node ref="C18" pin="1"/>
-      <node ref="S1" pin="2"/>
-    </net>
-    <net code="23" name="/EncoderA">
-      <node ref="C17" pin="1"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="24" name="Net-(R11-Pad2)">
-      <node ref="R11" pin="2"/>
+    <net code="25" name="Net-(R11-Pad2)">
       <node ref="R9" pin="2"/>
+      <node ref="R11" pin="2"/>
       <node ref="S1" pin="B"/>
     </net>
-    <net code="25" name="Net-(Q2-Pad1)">
-      <node ref="R7" pin="2"/>
+    <net code="26" name="Net-(Q2-Pad1)">
       <node ref="Q2" pin="1"/>
+      <node ref="R7" pin="2"/>
     </net>
-    <net code="26" name="Net-(Q1-Pad1)">
-      <node ref="Q1" pin="1"/>
+    <net code="27" name="Net-(Q1-Pad1)">
       <node ref="R6" pin="2"/>
+      <node ref="Q1" pin="1"/>
     </net>
-    <net code="27" name="SCL">
-      <node ref="D2" pin="2"/>
-      <node ref="J13" pin="5"/>
-      <node ref="J12" pin="2"/>
-      <node ref="U1" pin="36"/>
-      <node ref="U3" pin="16"/>
-      <node ref="J11" pin="2"/>
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="28" name="SDA">
-      <node ref="J13" pin="4"/>
-      <node ref="R4" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="U3" pin="15"/>
-      <node ref="U1" pin="33"/>
-      <node ref="J11" pin="1"/>
-      <node ref="J12" pin="1"/>
+    <net code="28" name="/IO0">
+      <node ref="Q2" pin="3"/>
+      <node ref="U1" pin="25"/>
     </net>
     <net code="29" name="/RESET">
-      <node ref="SW1" pin="2"/>
-      <node ref="J4" pin="3"/>
-      <node ref="J15" pin="6"/>
-      <node ref="Q1" pin="3"/>
       <node ref="R1" pin="1"/>
       <node ref="U1" pin="3"/>
       <node ref="C3" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="Q1" pin="3"/>
     </net>
-    <net code="30" name="/IO0">
-      <node ref="J4" pin="6"/>
-      <node ref="U1" pin="25"/>
-      <node ref="J15" pin="3"/>
-      <node ref="Q2" pin="3"/>
+    <net code="30" name="SDA">
+      <node ref="U1" pin="33"/>
+      <node ref="J13" pin="4"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J12" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="D2" pin="1"/>
     </net>
-    <net code="31" name="Net-(J1-Pad4)">
-      <node ref="J1" pin="4"/>
+    <net code="31" name="SCL">
+      <node ref="J13" pin="5"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="36"/>
+      <node ref="U3" pin="16"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="32" name="Net-(J1-Pad1)">
-      <node ref="U4" pin="8"/>
-      <node ref="J1" pin="1"/>
+    <net code="32" name="TXD">
+      <node ref="U1" pin="35"/>
+      <node ref="U4" pin="21"/>
     </net>
-    <net code="33" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3"/>
-      <node ref="U4" pin="3"/>
+    <net code="33" name="RXD">
+      <node ref="U1" pin="34"/>
+      <node ref="U4" pin="20"/>
     </net>
-    <net code="34" name="Net-(J1-Pad2)">
-      <node ref="J1" pin="2"/>
-      <node ref="U4" pin="4"/>
+    <net code="34" name="/PWM4">
+      <node ref="J14" pin="5"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J5" pin="4"/>
     </net>
-    <net code="35" name="/PWM6">
-      <node ref="J5" pin="2"/>
-      <node ref="J14" pin="7"/>
-      <node ref="R17" pin="1"/>
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="36" name="/PWM5">
-      <node ref="U1" pin="11"/>
+    <net code="35" name="/PWM5">
       <node ref="J14" pin="6"/>
       <node ref="J5" pin="3"/>
+      <node ref="U1" pin="11"/>
       <node ref="R16" pin="1"/>
     </net>
-    <net code="37" name="/PWM4">
-      <node ref="J5" pin="4"/>
-      <node ref="J14" pin="5"/>
-      <node ref="U1" pin="10"/>
-      <node ref="R15" pin="1"/>
+    <net code="36" name="/PWM6">
+      <node ref="U1" pin="12"/>
+      <node ref="J14" pin="7"/>
+      <node ref="R17" pin="1"/>
+      <node ref="J5" pin="2"/>
     </net>
-    <net code="38" name="/PWM2">
-      <node ref="J14" pin="3"/>
-      <node ref="J5" pin="6"/>
-      <node ref="U1" pin="16"/>
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="39" name="/PWM3">
-      <node ref="J14" pin="4"/>
-      <node ref="J5" pin="5"/>
-      <node ref="U1" pin="13"/>
-      <node ref="R14" pin="1"/>
-    </net>
-    <net code="40" name="/PWM1">
-      <node ref="R12" pin="1"/>
-      <node ref="J14" pin="2"/>
+    <net code="37" name="/PWM1">
       <node ref="U1" pin="14"/>
+      <node ref="J14" pin="2"/>
+      <node ref="R12" pin="1"/>
       <node ref="J5" pin="7"/>
     </net>
-    <net code="41" name="+12V">
-      <node ref="R21" pin="2"/>
+    <net code="38" name="/PWM3">
+      <node ref="U1" pin="13"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J14" pin="4"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="39" name="/PWM2">
+      <node ref="U1" pin="16"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J14" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="40" name="+12V">
+      <node ref="Q7" pin="3"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="Q3" pin="3"/>
       <node ref="J5" pin="1"/>
-      <node ref="R20" pin="2"/>
-      <node ref="R22" pin="2"/>
-      <node ref="R18" pin="2"/>
-      <node ref="J14" pin="8"/>
-      <node ref="R23" pin="2"/>
-      <node ref="R19" pin="2"/>
-      <node ref="U2" pin="3"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="U5" pin="3"/>
-      <node ref="J8" pin="1"/>
+      <node ref="D1" pin="2"/>
       <node ref="J7" pin="1"/>
-      <node ref="D1" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J14" pin="8"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U5" pin="3"/>
     </net>
-    <net code="42" name="/RTC-INTSQW">
-      <node ref="U1" pin="23"/>
-      <node ref="U3" pin="3"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="43" name="/RTC-RST">
-      <node ref="U3" pin="4"/>
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="44" name="/RTC-32kHz">
-      <node ref="R3" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="U1" pin="27"/>
-    </net>
-    <net code="45" name="/OnOff">
-      <node ref="J6" pin="1"/>
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="46" name="/!SD_SS">
+    <net code="41" name="/!SD_SS">
       <node ref="J3" pin="2"/>
       <node ref="U1" pin="24"/>
     </net>
-    <net code="47" name="Net-(U1-Pad29)">
-      <node ref="U1" pin="29"/>
+    <net code="42" name="/RTC-INTSQW">
+      <node ref="U1" pin="23"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U3" pin="3"/>
     </net>
-    <net code="48" name="SCK">
+    <net code="43" name="/SD_Det">
+      <node ref="J3" pin="9"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="44" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="45" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="46" name="/RTC-32kHz">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="27"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="47" name="/Button">
+      <node ref="S1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="48" name="MISO">
+      <node ref="J3" pin="7"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="49" name="SCK">
       <node ref="J3" pin="5"/>
       <node ref="U1" pin="30"/>
     </net>
-    <net code="49" name="MOSI">
-      <node ref="U1" pin="31"/>
+    <net code="50" name="MOSI">
       <node ref="J3" pin="3"/>
+      <node ref="U1" pin="31"/>
     </net>
-    <net code="50" name="MISO">
-      <node ref="U1" pin="37"/>
-      <node ref="J3" pin="7"/>
+    <net code="51" name="/OnOff">
+      <node ref="J6" pin="1"/>
+      <node ref="U1" pin="26"/>
     </net>
-    <net code="51" name="Net-(U1-Pad32)">
-      <node ref="U1" pin="32"/>
+    <net code="52" name="/RTC-RST">
+      <node ref="U1" pin="28"/>
+      <node ref="U3" pin="4"/>
     </net>
-    <net code="52" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
+    <net code="53" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
     </net>
-    <net code="53" name="Net-(U1-Pad5)">
+    <net code="54" name="LINE">
+      <node ref="C8" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U1-Pad5)">
       <node ref="U1" pin="5"/>
     </net>
-    <net code="54" name="Net-(U1-Pad9)">
-      <node ref="U1" pin="9"/>
+    <net code="56" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
     </net>
-    <net code="55" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
+    <net code="57" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
     </net>
-    <net code="56" name="Net-(U1-Pad17)">
+    <net code="58" name="Net-(U1-Pad17)">
       <node ref="U1" pin="17"/>
     </net>
-    <net code="57" name="Net-(U1-Pad18)">
+    <net code="59" name="Net-(U1-Pad18)">
       <node ref="U1" pin="18"/>
     </net>
-    <net code="58" name="Net-(U1-Pad19)">
+    <net code="60" name="Net-(U1-Pad19)">
       <node ref="U1" pin="19"/>
     </net>
-    <net code="59" name="Net-(U1-Pad21)">
+    <net code="61" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="62" name="Net-(U1-Pad21)">
       <node ref="U1" pin="21"/>
     </net>
-    <net code="60" name="Net-(U1-Pad22)">
+    <net code="63" name="Net-(U1-Pad22)">
       <node ref="U1" pin="22"/>
-    </net>
-    <net code="61" name="LINE">
-      <node ref="J2" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="62" name="Net-(J3-Pad8)">
-      <node ref="J3" pin="8"/>
-    </net>
-    <net code="63" name="Net-(J3-Pad1)">
-      <node ref="J3" pin="1"/>
     </net>
     <net code="64" name="Net-(BT1-Pad1)">
       <node ref="BT1" pin="1"/>
       <node ref="U3" pin="14"/>
     </net>
-    <net code="65" name="Net-(D15-Pad1)">
-      <node ref="D15" pin="1"/>
-      <node ref="D16" pin="1"/>
-      <node ref="D17" pin="1"/>
-      <node ref="Q7" pin="3"/>
+    <net code="65" name="Net-(Q7-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="Q7" pin="2"/>
     </net>
-    <net code="66" name="Net-(D15-Pad2)">
-      <node ref="D15" pin="2"/>
-      <node ref="D16" pin="2"/>
-      <node ref="D17" pin="2"/>
+    <net code="66" name="Net-(Q6-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D12-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="68" name="Net-(Q3-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="69" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="70" name="Net-(Q8-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D15-Pad2)">
       <node ref="R22" pin="1"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D16" pin="2"/>
     </net>
-    <net code="67" name="Net-(D12-Pad1)">
-      <node ref="D12" pin="1"/>
-      <node ref="D13" pin="1"/>
-      <node ref="D14" pin="1"/>
-      <node ref="Q6" pin="3"/>
-    </net>
-    <net code="68" name="Net-(Q6-Pad1)">
-      <node ref="Q6" pin="1"/>
-      <node ref="R15" pin="2"/>
-    </net>
-    <net code="69" name="Net-(Q8-Pad1)">
-      <node ref="R17" pin="2"/>
-      <node ref="Q8" pin="1"/>
-    </net>
-    <net code="70" name="Net-(Q7-Pad1)">
-      <node ref="Q7" pin="1"/>
-      <node ref="R16" pin="2"/>
-    </net>
-    <net code="71" name="Net-(D18-Pad2)">
-      <node ref="D18" pin="2"/>
+    <net code="72" name="Net-(D18-Pad2)">
       <node ref="R23" pin="1"/>
-      <node ref="D19" pin="2"/>
       <node ref="D20" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D18" pin="2"/>
     </net>
-    <net code="72" name="Net-(D18-Pad1)">
-      <node ref="Q8" pin="3"/>
-      <node ref="D18" pin="1"/>
-      <node ref="D19" pin="1"/>
-      <node ref="D20" pin="1"/>
-    </net>
-    <net code="73" name="Net-(Q3-Pad1)">
-      <node ref="R12" pin="2"/>
-      <node ref="Q3" pin="1"/>
-    </net>
-    <net code="74" name="Net-(D6-Pad1)">
-      <node ref="Q4" pin="3"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="D8" pin="1"/>
-    </net>
-    <net code="75" name="Net-(D6-Pad2)">
+    <net code="73" name="Net-(D6-Pad2)">
       <node ref="R19" pin="1"/>
       <node ref="D8" pin="2"/>
-      <node ref="D7" pin="2"/>
       <node ref="D6" pin="2"/>
+      <node ref="D7" pin="2"/>
     </net>
-    <net code="76" name="Net-(D3-Pad2)">
+    <net code="74" name="Net-(D3-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="D3" pin="2"/>
       <node ref="D4" pin="2"/>
       <node ref="R18" pin="1"/>
-      <node ref="D3" pin="2"/>
-      <node ref="D5" pin="2"/>
     </net>
-    <net code="77" name="Net-(D3-Pad1)">
-      <node ref="D5" pin="1"/>
-      <node ref="Q3" pin="3"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D3" pin="1"/>
+    <net code="75" name="Net-(D10-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="76" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="77" name="Net-(Q6-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="Q6" pin="1"/>
     </net>
     <net code="78" name="Net-(Q5-Pad1)">
       <node ref="Q5" pin="1"/>
       <node ref="R14" pin="2"/>
     </net>
-    <net code="79" name="Net-(D12-Pad2)">
-      <node ref="R21" pin="1"/>
-      <node ref="D12" pin="2"/>
-      <node ref="D13" pin="2"/>
-      <node ref="D14" pin="2"/>
+    <net code="79" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R16" pin="2"/>
     </net>
     <net code="80" name="Net-(Q4-Pad1)">
       <node ref="Q4" pin="1"/>
       <node ref="R13" pin="2"/>
     </net>
-    <net code="81" name="Net-(D10-Pad2)">
-      <node ref="D9" pin="2"/>
-      <node ref="D10" pin="2"/>
-      <node ref="D11" pin="2"/>
-      <node ref="R20" pin="1"/>
+    <net code="81" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R12" pin="2"/>
     </net>
-    <net code="82" name="Net-(D10-Pad1)">
-      <node ref="D11" pin="1"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D9" pin="1"/>
-      <node ref="Q5" pin="3"/>
+    <net code="82" name="Net-(Q8-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="Q8" pin="1"/>
     </net>
   </nets>
 </export>

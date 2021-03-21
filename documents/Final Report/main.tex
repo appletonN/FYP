@@ -42,15 +42,21 @@
 
 \usepackage{pdfpages}
 
-\usepackage[round]{natbib}
+\usepackage{csquotes}
 
+\usepackage[style=authoryear, backend=biber, natbib=true]{biblatex}
+
+\DeclareBibliographyCategory{cited}
+\AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
+
+\addbibresource{FYP.bib}
+\nocite{*}
 
 \newcommand{\citefirstlastauthor}{\AtNextCite{\DeclareNameAlias{labelname}{given-family}}\citeauthor}
 
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
-
 
 \begin{document}
 
@@ -85,7 +91,8 @@
     \end{center}
 \end{titlepage}
 
-\tableofcontents \clearpage \newpage
+\tableofcontents 
+\clearpage \newpage
 
 %----------------------------------------------------------------------------------------
 
@@ -99,8 +106,9 @@
 
 \clearpage
 \newpage
-\bibliographystyle{agsm}
-\bibliography{FYP}
 
+\printbibliography[title={References},category=cited, heading=bibintoc]% default title for `article` class: "References"
+
+\printbibliography[notcategory=cited, heading=bibintoc]
 
 \end{document}
