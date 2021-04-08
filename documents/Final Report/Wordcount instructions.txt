@@ -1,0 +1,1 @@
+texcount -inc -1 -sum main.tex > WordCount.sum

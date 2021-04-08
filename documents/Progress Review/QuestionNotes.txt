@@ -1,0 +1,58 @@
+
+Q1. How does your project relate to your professionalism as an engineer?
+
+	- UK SCPEC:
+		A: Use engineering knowledge and understanding to apply technical and practical skills.
+
+		B: Contribute to the design, development, manufacture, construction, commissioning, operation or maintenance
+
+		C: Accept and exercise personal responsibility.
+
+		D: Use effective communication and interpersonal skills.
+
+		E: Make a personal commitment to an appropriate code of professional conduct, recognising obligations to society, the profession and the environment.
+
+	- Ethics have been scrutinised
+
+	- Trying to make real change, increase distributive justice
+
+	- LINK BACK TO PROFESSIONALISM
+
+	- Sustainability: device and field
+
+	- Minimum environmental impact of testing
+
+
+Q2. How well do you think you have managed your project
+
+	- Logbook was a central part
+
+	- Agile Kanban flow using clickup: gantt charts, minutes, tasks, subtasks
+
+	- weekly supervisor meetings
+
+	- contigencies & risk mitigation: simulator, broader research questions & stretch goals
+
+	- LINK BACK TO MANGEMENT
+
+	- Changes: computer faliures, lockdown & PCBs, spectrometer, didn't get to qualitative research
+
+	- Stayed on top of it, assessed Gantt charts monthly
+
+
+Q3. What engineering challenges have you encountered during your project and how have you overcome them?
+
+	- No soldering - Designed and produced hardware
+
+	- Long analysis -> automation software
+
+	- no camera -> producing measurement devices
+
+	- deep dive into the literature
+
+	- Reaching out to others when equipment availability has changed - pooling knowledge
+
+
+
+FeedForward Qs
+

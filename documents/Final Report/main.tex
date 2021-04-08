@@ -24,8 +24,8 @@
 \setlist[itemize]{noitemsep} % Make itemize lists more compact
 
 \usepackage{titlesec} % Allows customization of titles
-\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
-\renewcommand\thesubsection{\roman{subsection}} % roman numerals for subsections
+%\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+%\renewcommand\thesubsection{\roman{subsection}} % roman numerals for subsections
 \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
 \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
 
@@ -33,7 +33,7 @@
 \pagestyle{fancy} % All pages have headers and footers
 \fancyhead{} % Blank out the default header
 \fancyfoot{} % Blank out the default footer
-\fancyhead[C]{Parting the Clouds $\bullet$ \today $\bullet$ 16019243} % Custom header text
+\fancyhead[C]{\today $\bullet$ Parting the Clouds $\bullet$ 16019243} % Custom header text
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
 
 \usepackage{titling} % Customizing the title section
@@ -44,7 +44,90 @@
 
 \usepackage{csquotes}
 
-\usepackage[style=authoryear, backend=biber, natbib=true]{biblatex}
+
+\usepackage[backend=biber, style=authoryear, maxnames=999, maxcitenames=3, urldate=long, natbib=true]{biblatex}
+%\DeclareNameAlias{sortname}{last-first}
+\DeclareFieldFormat{edition}{%
+  \ifinteger{#1}
+    {\ifnumequal{#1}{1}%
+     {}%
+     {\mkbibordedition{#1}~\bibstring{edition}}%
+    }
+    {#1\isdot}}
+
+\DeclareFieldFormat[article,inbook,incollection]{title}{#1\isdot}
+\DeclareFieldFormat[article,inbook,incollection]{citetitle}{#1\isdot}
+
+\newrobustcmd{\MakeTitleCase}[1]{%
+  \ifboolexpr{test {\ifentrytype{article}} or test {\ifentrytype{inbook}} or test {\ifentrytype{incollection}}}
+    {#1}
+    {\MakeSentenceCase{#1}}}
+
+\DeclareFieldFormat{urldate}{\bibsentence\mkbibbrackets{\bibstring{urlseen}\space#1}}
+\DeclareFieldFormat{url}{\bibstring{urlfrom}\addcolon\space\url{#1}}
+
+
+\renewbibmacro*{volume+number+eid}{%
+  \printfield{volume}%
+%  \setunit*{\adddot}% DELETED
+  \setunit*{\addnbspace}% NEW (optional); there's also \addnbthinspace
+  \printfield{number}%
+  \setunit{\addcomma\space}%
+  \printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+
+\renewbibmacro*{journal}{%
+  \iffieldundef{journaltitle}
+    {}
+    {\printtext[journaltitle]{%
+       \printfield[titlecase]{journaltitle}%
+       \setunit{\subtitlepunct}%
+       \printfield[titlecase]{journalsubtitle}}
+       \ifboolexpr{
+         not test {\iffieldundef{url}}
+         or
+         not test {\iffieldundef{urldate}}
+         or
+         not test {\iffieldundef{doi}}
+         or
+         not test {\iffieldundef{eprint}}
+       }
+         {\nopunct\bibstring[\mkbibbrackets]{online}}%
+         {}}}
+
+\renewbibmacro*{journal+issuetitle}{%
+  \usebibmacro{journal}%
+  \setunit*{\addspace}%
+  \iffieldundef{series}
+    {}
+    {\newunit
+     \printfield{series}%
+     \setunit{\addspace}}%
+  \newunit
+  \usebibmacro{volume+number+eid}%
+  \setunit{\addspace}%
+  \usebibmacro{issue+date}%
+  \setunit{\addcolon\space}%
+  \usebibmacro{issue}%
+  \newunit}
+
+\NewBibliographyString{online}
+\DefineBibliographyStrings{english}{%
+  urlseen    = {accessed},
+  online     = {online},
+}
+%\addbibresource{example.bib}
+\renewcommand*{\nameyeardelim}{\addcomma\addspace}
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}} % removes "In" preceding journal title
+  
+  
+
+%\section*{Bibliography}
+%\bibliography{biblio.bib}
+%\end{document}
+
 
 \DeclareBibliographyCategory{cited}
 \AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
@@ -54,11 +137,20 @@
 
 \newcommand{\citefirstlastauthor}{\AtNextCite{\DeclareNameAlias{labelname}{given-family}}\citeauthor}
 
+
+\linespread{1.25}
+
+
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
+
+
+
 \begin{document}
+
+\pagenumbering{roman}
 
 \begin{titlepage}
 
@@ -75,10 +167,18 @@
         \vspace{1.5cm}
             
         \textbf{N. Appleton}
+        
+        \vspace{0.5cm}
+        Supervisor: Matthew Studley
+        
+        BEng Robotics
             
         \vfill
             
-        Designing a modular, human-centric lighting system            
+        Designing a modular, human-centric lighting system   
+        
+        \pageref{Lastpage} pages; 
+        \input{WordCount.sum}words
             
         \vspace{0.8cm}
             
@@ -91,6 +191,21 @@
     \end{center}
 \end{titlepage}
 
+
+\begin{titlepage}
+\centering
+~
+\vfill
+
+\textbf{Disclaimer:}
+
+All of the work contained in this document is solely the work of N. Appleton.
+
+\vfill
+~ \vfill
+\end{titlepage}
+
+\setcounter{tocdepth}{1	}
 \tableofcontents 
 \clearpage \newpage
 
@@ -99,16 +214,61 @@
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
+\pagenumbering{arabic}
+
+\input{Intro}
 
 \input{LitReview}
 
-%----------------------------------------------------------------------------------------
 
+%----------------------------------------------------------------------------------------
+\label{Lastpage}
 \clearpage
 \newpage
 
 \printbibliography[title={References},category=cited, heading=bibintoc]% default title for `article` class: "References"
 
 \printbibliography[notcategory=cited, heading=bibintoc]
+
+\appendix
+
+\chapter{Documents}
+
+\clearpage
+
+\section{Device Requirements}
+\label{App:Req}
+
+\includepdf[angle=90, width=.75\textheight, offset=0 -2cm]{PDFs/requirements.pdf}
+
+
+\section{Gantt Charts}
+\label{App:Gantt}
+
+\subsection{Nov $15^{th}$ 2020 (initial)}
+
+\includepdfmerge[nup=2x2]{PDFs/Gantts/nov15/ProjectSetup.pdf, PDFs/Gantts/nov15/Documents.pdf, PDFs/Gantts/nov15/Hardware.pdf, PDFs/Gantts/nov15/Research.pdf}
+
+\subsection{Dec $12^{th}$ 2020}
+
+\includepdfmerge[nup=2x2]{PDFs/Gantts/dec12/Setup.pdf, PDFs/Gantts/dec12/Docs.pdf, PDFs/Gantts/dec12/Hardware.pdf, PDFs/Gantts/dec12/Research.pdf}
+
+\subsection{Jan $26^{th}$ 2021}
+
+\includepdfmerge[nup=2x2]{PDFs/Gantts/jan26/Admin.pdf, PDFs/Gantts/jan26/Hardware.pdf, PDFs/Gantts/jan26/Hardware(upcoming).pdf, PDFs/Gantts/jan26/Research.pdf}
+
+\subsection{Feb $17^{th}$ 2021}
+
+\includepdfmerge[nup=2x2]{PDFs/Gantts/feb17/Admin.pdf, PDFs/Gantts/feb17/Hardware.pdf, PDFs/Gantts/feb17/Research.pdf}
+
+\subsection{Apr $2^{nd}$ 2021}
+
+\includepdfmerge[nup=2x2]{PDFs/Gantts/apr2/Admin.pdf, PDFs/Gantts/apr2/Hardware.pdf, PDFs/Gantts/apr2/Research.pdf}
+
+\section{Risk Assessment}
+\label{App:Risk}
+
+\includepdfmerge{PDFs/RiskAssessment.pdf}
+
 
 \end{document}

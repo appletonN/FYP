@@ -1,0 +1,102 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.0}Let there be Light}{1}{section.1.0}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Gap in the Market}{1}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Aims and Objectives}{1}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Aims}{1}{subsection.1.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Objectives}{2}{subsection.1.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Scope}{2}{subsection.1.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Project Management}{3}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{AGILE Kanban}{3}{paragraph*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Weekly meetings}{3}{paragraph*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Logbook}{3}{paragraph*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Gantt Charts}{3}{paragraph*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Time Constraints}{3}{paragraph*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Contingencies}{3}{paragraph*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Risks and Mitigation}{3}{paragraph*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Reflection}{4}{paragraph*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Existing Work}{5}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Lighting}{5}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Introduction}{5}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}History}{5}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Energy Consumption and Environmental Considerations}{6}{subsection.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Circadian Rhythms}{6}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}What is the Circadian Rhythm?}{6}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Melatonin and Melanopsin}{7}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Blue Light}{8}{subsection.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Health Implications}{8}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Cancer}{8}{subsection.2.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Diabetes}{9}{subsection.2.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Seasonal Affective Disorder}{9}{subsection.2.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Cortisol and Attentiveness}{9}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Mood and Lighting}{10}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Summary of Literature}{10}{section.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Existing Solutions}{11}{section.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.1}Wake-Up Lights}{11}{subsection.2.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.2}Bulb Replacements}{11}{subsection.2.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.3}Industrial Circadian Lighting}{11}{subsection.2.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.4}Software Based}{11}{subsection.2.7.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.5}Discussion}{12}{subsection.2.7.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.8}Implementation}{12}{section.2.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{13}{chapter*.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{25}{chapter*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Documents}{29}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Device Requirements}{30}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Gantt Charts}{31}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.1}Nov $15^{th}$ 2020 (initial)}{31}{subsection.A.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.2}Dec $12^{th}$ 2020}{32}{subsection.A.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.3}Jan $26^{th}$ 2021}{33}{subsection.A.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.4}Feb $17^{th}$ 2021}{34}{subsection.A.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.5}Apr $2^{nd}$ 2021}{35}{subsection.A.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Risk Assessment}{36}{section.A.3}%
