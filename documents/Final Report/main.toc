@@ -73,30 +73,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7.3}Industrial Circadian Lighting}{11}{subsection.2.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.4}Software Based}{11}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.4}Software Based}{12}{subsection.2.7.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7.5}Discussion}{12}{subsection.2.7.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.8}Implementation}{12}{section.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{13}{chapter*.14}%
+\contentsline {chapter}{\numberline {3}Methods}{13}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{25}{chapter*.15}%
+\contentsline {section}{\numberline {3.1}4 Phases}{13}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Documents}{29}{appendix.A}%
+\contentsline {subsection}{\numberline {3.1.1}Idea Generation}{13}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Device Requirements}{30}{section.A.1}%
+\contentsline {subsection}{\numberline {3.1.2}Project Setup}{13}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Gantt Charts}{31}{section.A.2}%
+\contentsline {subsection}{\numberline {3.1.3}Development}{14}{subsection.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Nov $15^{th}$ 2020 (initial)}{31}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {3.1.4}Research}{15}{subsection.3.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Dec $12^{th}$ 2020}{32}{subsection.A.2.2}%
+\contentsline {section}{\numberline {3.2}Research Methods}{15}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Jan $26^{th}$ 2021}{33}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {3.2.1}Methodology}{15}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Feb $17^{th}$ 2021}{34}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {3.2.2}Data Collection}{15}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Apr $2^{nd}$ 2021}{35}{subsection.A.2.5}%
+\contentsline {chapter}{References}{16}{chapter*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Risk Assessment}{36}{section.A.3}%
+\contentsline {chapter}{Bibliography}{28}{chapter*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossary}{32}{section*.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Project Documents}{33}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Device Requirements}{34}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Gantt Charts}{35}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.1}Nov $15^{th}$ 2020 (initial)}{35}{subsection.A.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.2}Dec $12^{th}$ 2020}{36}{subsection.A.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.3}Jan $26^{th}$ 2021}{37}{subsection.A.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.4}Feb $17^{th}$ 2021}{38}{subsection.A.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.5}Apr $2^{nd}$ 2021}{39}{subsection.A.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Risk Assessment}{40}{section.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Resources}{41}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Security}{42}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.6}Interview Documents}{43}{section.A.6}%

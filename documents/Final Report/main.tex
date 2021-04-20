@@ -140,11 +140,12 @@
 
 \linespread{1.25}
 
-
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
+
+\input{Gloss}
 
 
 
@@ -220,6 +221,12 @@ All of the work contained in this document is solely the work of N. Appleton.
 
 \input{LitReview}
 
+\input{Method}
+
+
+% RESULTS
+% - physical outputs: equipment, pcbs, camera, etc.
+% - outputs from device and stuff
 
 %----------------------------------------------------------------------------------------
 \label{Lastpage}
@@ -230,9 +237,14 @@ All of the work contained in this document is solely the work of N. Appleton.
 
 \printbibliography[notcategory=cited, heading=bibintoc]
 
+\clearpage
+
+\printnoidxglossaries
+
 \appendix
 
-\chapter{Documents}
+\chapter{Project Documents}
+\label{App:Docs}
 
 \clearpage
 
@@ -246,6 +258,7 @@ All of the work contained in this document is solely the work of N. Appleton.
 \label{App:Gantt}
 
 \subsection{Nov $15^{th}$ 2020 (initial)}
+\label{App:initialGantt}
 
 \includepdfmerge[nup=2x2]{PDFs/Gantts/nov15/ProjectSetup.pdf, PDFs/Gantts/nov15/Documents.pdf, PDFs/Gantts/nov15/Hardware.pdf, PDFs/Gantts/nov15/Research.pdf}
 
@@ -268,7 +281,23 @@ All of the work contained in this document is solely the work of N. Appleton.
 \section{Risk Assessment}
 \label{App:Risk}
 
-\includepdfmerge{PDFs/RiskAssessment.pdf}
+\includepdf[width=.75\textheight, offset=0 -2cm]{PDFs/RiskAssessment.pdf}
+
+\section{Resources}
+\label{App:Resources}
+
+\includepdf[width=.75\textheight, offset=0 -2cm]{PDFs/resources.pdf}
+
+\section{Security}
+\label{App:Security}
+
+\includepdf[width=.75\textheight, offset=0 -2cm]{PDFs/security.pdf}
+
+
+\section{Interview Documents}
+\label{App:Consent}
+
+\includepdf[page=-,nup=2x2]{PDFs/Consent.pdf}
 
 
 \end{document}

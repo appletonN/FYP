@@ -1,7 +1,66 @@
 
 \chapter{Methods}
 
-There were 3 major phases to the project: idea generation, project setup, development and research. Each of these phases was approached in a different way in acknowledgement of the differences of each phase.
+\section{4 Phases}
 
-\section{Idea Generation}
+There were 4 major phases to the project: idea generation, project setup, development and research. Each of these phases was approached in a different way in acknowledgement of the differences of each.
 
+\subsection{Idea Generation}
+
+Phase I of the project was the time in which to identify a problem that could be addressed. 
+
+The initial idea was a running aid for use by natural movement specialists. Qualitative techniques were used to identify whether this would be an applicable solution to the lack of training aids for natural-running coaches. Interviews were conducted between February and September 2020 and many world-renowned athletes and trainers were consulted. These interviews were semi-structured and took approximately 45 minutes to complete over video call, and were recorded for later processing, anonymisation and interpretation; consent forms were signed by each participant confirming that they had read the information sheet provided and understood how to withdraw their data, copies of these can be found in Appendix \ref{App:Consent}.
+
+The outcome of this process was that the industry being investigated was not in need of such a device to aid running coaching. The interviews did, however, highlight that almost all of the participants believed that some form of natural-lighting system would be beneficial for their clients and others.
+
+Once the direction had been fixed towards the natural-lighting system, the analysis of the current state of the market was undertaken. The results of this informed what the aims and objectives of the project would be, and a summary of the findings can be found in chapter \ref{Lit:solutions}.
+
+\subsection{Project Setup}
+
+Once the direction of the project had been identified and confirmed as a suitable project, the groundwork began to create a solid foundation that the rest of the project could be built upon.
+
+The risk assessment, security form, resources form and requirements document were all completed during this phase (See appendix \ref{App:Docs}) to ensure that the project could be undertaken safely, securely, and with an effective and sustainable use of resources. The initial project plan was also compiled to give structure to the two semesters of work (Appendix \ref{App:initialGantt}). This initial plan was drafted with the knowledge that it would change over the course of the project in the monthly reviews. Laying out an achievable but optimistic plan ensured that the project hit the ground running and began in the most effective way.
+
+Before development began, the requirements documentation was drafted. This took place in a meeting between the two hardware developers and 45 functional and non-functional requirements were determined. This 3 page document was then adjusted to create a hierarchical structure to aid the ease of understanding and allowing sub-requirements to visually link to multiple parents. The final version of this document can be found in Appendix \ref{App:Req}.
+
+This phase was also used to identify the equipment that would be required to take measurements of the device, including gaining access to a hyper-spectral camera that could be used to record the output spectra. Meetings took place with Professor Darren Reynolds to arrange how access could be given. Meetings also took place to determine how the collaboration with V. Halenka would proceed; the physical design of the device would be split, but further usage and development of software was to be left to each researcher individually.
+
+\subsection{Development}
+
+This is the phase in which the device was actually produced. The tools required to capture the data that would be used to assess the results of the project were developed.
+
+The initial schematics were created before producing the first \acrshort{pcbs}. However, due to the lockdown in England beginning on the $6^{th}$ of January, these \acrshort{pcbs} could not be retrieved. For this reason - and the university rules against soldering without the on-campus facilities - a breadboard prototype was made to approximate the final device and test all the functions. This prototype was used as the main device for the purposes of gathering data later in the project. 
+
+Once it had been confirmed that the breadboard prototype functioned fully and correctly, a new set of \acrshort{pcbs} were ordered, this time with high confidence of them working. More about the specifics of the hardware can be found in chapter \ref{}.
+
+Alongside the hardware development was the production of the simulator; created in LabVIEW, it was designed to approximate the spectral output of the device to be used to develop the spectra that would be implemented without having to have constant access to the measurement facilities.
+
+Measuring the actual device was also made significantly harder due to the lockdown. Access to the hyperspectral camera was revoked in line with the stay-at-home order. An alternative method for recording the spectra had to be found. Many potential solutions were discussed with machine vision specialists, but many of the proposed solutions were applicable as they could not capture the entire spectrum.
+
+A spectrometer that could achieve full visible-spectrum range was produced (as discussed in chapter \ref{}) which could be used to gather the spectral data from the device.
+
+The approach employed during this phase was results-driven, de-risk oriented approach to ensure that problems were handled quickly and effectively wherever they arose. This meant that from early in this phase, the ability to create data for the purposes of the study could occur, in one form or another.
+
+\subsection{Research}
+
+The final phase of the project, the results were gathered using the methods discussed below. The simulator was calibrated using measurements from the spectrometer to ensure that the graphs that it output were close to the true spectral output of the device. This meant the spectra that would emulate the solar output could be created in software, saving the time that would need to be used to implement them on hardware and measure the outputs.
+
+The spectral data needed to be extracted from the spectrometer images before it could be used. For this, the Tracker Physics software was used in which a line profile could be drawn across the spectrum to determine the relative power of each point. However, the software required the calibration function to be manually loaded into each image to be extracted. 
+
+To streamline this process, another LabVIEW program was created, based off code generated from National Instrument's Vision Assistant. This allowed dozens of images to be converted in seconds once the calibration had been done in Tracker Physics. 
+
+\section{Research Methods}
+
+\subsection{Methodology}
+
+The research was undertaken with quantitative techniques such that numerate analysis could be done on the data. This allowed for concrete analysis of many of the aims and requirements, employing a logical approach to the assessment of the success of the project.
+
+By collecting quantitative data, the device can easily be compared to other devices within the same field; this way, the results of this study can be immediately put into context of the real world.
+
+\subsection{Data Collection}
+
+Four spectra were created and assessed: \acrfull{morning}, \acrfull{afternoon}, \acrfull{evening}, \acrfull{night}. These spectra were created using the LabVIEW simulator to calculate the LED values required to produce them. The created spectra were then implemented on the device and measured again with the spectrometer to ensure accuracy.
+
+The simulator was then used to create \acrfull{spd} graphs that were analogous to the physical outputs, and could be binned at any wavelength increment.
+
+A \gls{lux} meter was then used to calculate the \gls{flux} of the device which could then be expressed in $\mu W cm^{-2} nm^{-1}$, the standard units for \gls{flux} used when comparing lighting spectra.

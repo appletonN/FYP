@@ -1,0 +1,30 @@
+\ifglsentryexists{BlueLight}{}%
+{%
+\gls@defglossaryentry{BlueLight}%
+{%
+name={blue light},%
+sort={blue light},%
+type={main},%
+first={blue light},%
+firstplural={blue lights},%
+text={blue light},%
+plural={blue lights},%
+description={Short wavelength, high-energy - usually below 550nm},%
+descriptionplural={Short wavelength, high-energy - usually below 550nm},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
