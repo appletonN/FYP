@@ -97,32 +97,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Data Collection}{15}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{16}{chapter*.14}%
+\contentsline {subsection}{\numberline {3.2.3}Methods of Analysis}{15}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{28}{chapter*.15}%
+\contentsline {chapter}{References}{17}{chapter*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossary}{32}{section*.16}%
+\contentsline {chapter}{Bibliography}{30}{chapter*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Project Documents}{33}{appendix.A}%
+\contentsline {chapter}{Glossary}{34}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Device Requirements}{34}{section.A.1}%
+\contentsline {chapter}{\numberline {A}Project Documents}{35}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Gantt Charts}{35}{section.A.2}%
+\contentsline {section}{\numberline {A.1}Device Requirements}{36}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Nov $15^{th}$ 2020 (initial)}{35}{subsection.A.2.1}%
+\contentsline {section}{\numberline {A.2}Gantt Charts}{37}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Dec $12^{th}$ 2020}{36}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.1}Nov $15^{th}$ 2020 (initial)}{37}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Jan $26^{th}$ 2021}{37}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.2}Dec $12^{th}$ 2020}{38}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Feb $17^{th}$ 2021}{38}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {A.2.3}Jan $26^{th}$ 2021}{39}{subsection.A.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Apr $2^{nd}$ 2021}{39}{subsection.A.2.5}%
+\contentsline {subsection}{\numberline {A.2.4}Feb $17^{th}$ 2021}{40}{subsection.A.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Risk Assessment}{40}{section.A.3}%
+\contentsline {subsection}{\numberline {A.2.5}Apr $2^{nd}$ 2021}{41}{subsection.A.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Resources}{41}{section.A.4}%
+\contentsline {section}{\numberline {A.3}Risk Assessment}{42}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Security}{42}{section.A.5}%
+\contentsline {section}{\numberline {A.4}Resources}{43}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Interview Documents}{43}{section.A.6}%
+\contentsline {section}{\numberline {A.5}Security}{44}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.6}Interview Documents}{45}{section.A.6}%

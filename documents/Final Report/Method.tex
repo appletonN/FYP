@@ -59,8 +59,45 @@ By collecting quantitative data, the device can easily be compared to other devi
 
 \subsection{Data Collection}
 
+\begin{table*}[tb]
+\centering
+\begin{tabular}{c|c|c}
+Photoreceptor     & Photopigment & Unit of Measure   \\\hline\hline
+\acrfull{s} Cones & cyanolabe   & Cyanopic lux      \\\hline
+\acrfull{m} Cones & chlorolabe  & Chloropic lux  	\\\hline
+\acrfull{l} Cones & erythrolabe & Erythropic lux	\\\hline
+\acrfull{iprgc}   & melanopsin  & Melanopic lux  	\\\hline
+Rods              & Rod Opsin   & Rhodopic lux    
+\end{tabular}
+\caption{5 Photometric measures that effect cause circadian and neurophysiological responses in humans \citep{lucasMeasuringUsingLight2014}}
+\label{Tab:photometrics}
+\end{table*}
+
+
+
 Four spectra were created and assessed: \acrfull{morning}, \acrfull{afternoon}, \acrfull{evening}, \acrfull{night}. These spectra were created using the LabVIEW simulator to calculate the LED values required to produce them. The created spectra were then implemented on the device and measured again with the spectrometer to ensure accuracy.
 
-The simulator was then used to create \acrfull{spd} graphs that were analogous to the physical outputs, and could be binned at any wavelength increment.
+The simulator was then used to create \acrfull{spd} graphs that were analogous to the physical outputs, and could be binned at any wavelength increment. Only the visual spectrum was considered due to limitations in the measuring equipment.
 
-A \gls{lux} meter was then used to calculate the \gls{flux} of the device which could then be expressed in $\mu W cm^{-2} nm^{-1}$, the standard units for \gls{flux} used when comparing lighting spectra.
+A \gls{lux} meter was then calibrated using a known source and used to calculate the \gls{flux} of the device which could then be expressed in $\mu W cm^{-2} nm^{-1}$, the standard units for \gls{flux} used when comparing lighting spectra.
+
+Reference datasets were gathered from fluxometer.com \citep{f.luxsoftwarellcLuxometer} for the \gls{solar} throughout the day, as well as a firelight spectrum for the night, and a sample of standard lights for comparison of results. f.luxometer was chosen as it carries a wide range of open-source spectra including many solar spectra. The curators of this data ensure that it is of high quality, and all their work is backed up by a large body of research.
+
+\subsection{Methods of Analysis}
+
+After the spectra had been normalised, they could then be compared using Matlab where the \acrfull{sam} was used to determine the similarity of each spectrum to its respective reference spectrum suing a spectral angle error metric \citep{kruseSpectralImageProcessing1993}. This was repeated for the other lights so comparisons could be drawn as to how effective the device is at mimicking the \gls{solar}. The \acrshort{sam} is given by:
+
+\begin{equation}
+cos^{-1}\left(\frac{\sum\limits_{i=1}^{nb} t_i r_i}{\left(\sum\limits_{i=1}^{nb} t_i^2\right)^{1/2}\left(\sum\limits_{i=1}^{nb} r_i^2\right)^{1/2}}\right)
+\end{equation}
+
+\begin{center}
+where: $t=$test spectrum, $r=$reference spectrum, $nb=$number of bands
+\end{center}
+
+The \acrfull{cri} was also tested using the standard techniques \citep{liCRICAM02UCSColourRendering2012}. This is the ability for the light to correctly illuminate certain colours; a low \acrshort{cri} means that colours illuminated by this light would not look accurate to their true colour. This analysis was also conducted on the comparison illuminants.
+
+
+Photometric measures that effect the circadian rhythm were also examined, with the effects of the light on each of the 5 photopigments (listed in Table \ref{Tab:photometrics}) being quantified as per the techniques laid out by \citet{lucasMeasuringUsingLight2014}. These responses correspond to how the light will affect the circadian rhythm and other neurophysiological effects within the users. Comparisons of the effects of standard lights and the produced device are drawn to understand whether this is an improvement on existing solutions.
+
+These techniques were selected as they would answer the questions as to the relevant performance of the device as stated in the requirements document (Appendix \ref{App:Req}). The quantification of these factors has been approached in the ways most relevant and have scientific backing in the fact that they are broadly used in the literature.

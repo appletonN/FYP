@@ -2452,8 +2452,14 @@
     <bcf:citekey order="93">webbConsiderationsLightingBuilt2006</bcf:citekey>
     <bcf:citekey order="93">boyceReviewImpactLight2010</bcf:citekey>
     <bcf:citekey order="93">groseArtificialLightNight2014</bcf:citekey>
-    <bcf:citekey order="94">groseArtificialLightNight</bcf:citekey>
-    <bcf:citekey order="95">laaksoOnehourExposureModerate1993a</bcf:citekey>
+    <bcf:citekey order="94">lucasMeasuringUsingLight2014</bcf:citekey>
+    <bcf:citekey order="95">lucasMeasuringUsingLight2014</bcf:citekey>
+    <bcf:citekey order="96">f.luxsoftwarellcLuxometer</bcf:citekey>
+    <bcf:citekey order="97">kruseSpectralImageProcessing1993</bcf:citekey>
+    <bcf:citekey order="98">liCRICAM02UCSColourRendering2012</bcf:citekey>
+    <bcf:citekey order="99">lucasMeasuringUsingLight2014</bcf:citekey>
+    <bcf:citekey order="100">groseArtificialLightNight</bcf:citekey>
+    <bcf:citekey order="101">laaksoOnehourExposureModerate1993a</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

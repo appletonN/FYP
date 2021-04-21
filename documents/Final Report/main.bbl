@@ -594,12 +594,12 @@
            given={Jimo},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e19f117f2923574b82023ddbfe80eec}{%
+        {{un=1,uniquepart=given,hash=2e19f117f2923574b82023ddbfe80eec}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={Xiaodong},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=fa71184da9ce12e925e07f52b2db1567}{%
            family={Snyder},
            familyi={S\bibinitperiod},
@@ -2350,7 +2350,6 @@
       \field{urlmonth}{12}
       \field{urlyear}{2020}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb C\:\\Users\\Nick\\Zotero\\storage\\QQM9MYE4\\rainbow.html
       \endverb
@@ -4090,6 +4089,94 @@
       \verb https://www.jstor.org/stable/40967685
       \endverb
     \endentry
+    \entry{kruseSpectralImageProcessing1993}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=b8250f31a89e35dbd0a483adf5638cf3}{%
+           family={Kruse},
+           familyi={K\bibinitperiod},
+           given={F.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=079a2c18e003b2b7919dfc8fe28ca153}{%
+           family={Lefkoff},
+           familyi={L\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4a667950cb6780b87ad81bb9ec119c0}{%
+           family={Boardman},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bca60ff629cb8062bc3384ba5fb2fab0}{%
+           family={Heidebrecht},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5dda911a24e67e67d48807ad57c40a7}{%
+           family={Shapiro},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5f756860f94e12df567ac161b4f21df}{%
+           family={Barloon},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1425c8a91b17d6d9fef33814fe5ed1c9}{%
+           family={Goetz},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{75427a9eacb1b7014b464decc3007ad9}
+      \strng{fullhash}{39374cb1609edb40df15cbf5155257bb}
+      \strng{bibnamehash}{39374cb1609edb40df15cbf5155257bb}
+      \strng{authorbibnamehash}{39374cb1609edb40df15cbf5155257bb}
+      \strng{authornamehash}{75427a9eacb1b7014b464decc3007ad9}
+      \strng{authorfullhash}{39374cb1609edb40df15cbf5155257bb}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Center for the Study of Earth from Space (CSES) at the University of Colorado, Boulder, has developed a prototype interactive software system called the Spectral Image Processing System (SIPS) using IDL (the Interactive Data Language) on UNIX-based workstations. SIPS is designed to take advantage of the combination of high spectral resolution and spatial data presentation unique to imaging spectrometers. It streamlines analysis of these data by allowing scientists to rapidly interact with entire datasets. SIPS provides visualization tools for rapid exploratory analysis and numerical tools for quantitative modeling. The user interface is X-Windows-based, user friendly, and provides ``point and click'' operation. SIPS is being used for multidisciplinary research concentrating on use of physically based analysis methods to enhance scientific results from imaging spectrometer data. The objective of this continuing effort is to develop operational techniques for quantitative analysis of imaging spectrometer data and to make them available to the scientific community prior to the launch of imaging spectrometer satellite systems such as the Earth Observing System (EOS) High Resolution Imaging Spectrometer (HIRIS).}
+      \field{issn}{0034-4257}
+      \field{journaltitle}{Remote Sensing of Environment}
+      \field{month}{5}
+      \field{number}{2}
+      \field{series}{Airbone {{Imaging Spectrometry}}}
+      \field{title}{The Spectral Image Processing System ({{SIPS}})—Interactive Visualization and Analysis of Imaging Spectrometer Data}
+      \field{urlday}{21}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{volume}{44}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{145\bibrangedash 163}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/0034-4257(93)90013-N
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Nick\\Zotero\\storage\\E98Q2NGF\\003442579390013N.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/003442579390013N
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/003442579390013N
+      \endverb
+    \endentry
     \entry{kuseDamagePhotoreceptorderivedCells2014}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=cd0e29f21e4a33a0d9a24f617ff882f1}{%
@@ -4568,6 +4655,76 @@
       \verb https://science.sciencemag.org/content/210/4475/1267
       \endverb
     \endentry
+    \entry{liCRICAM02UCSColourRendering2012}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=0fa86ce76f38abb4293116ef56b787fa}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=274cdeb13645b0c6bc64a43388c13621}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi Ronnier},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a185d90d1246c033873bc12d91f6aa8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Changjun},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1046998588d2243cde8aa9e1b7055709}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Guihua},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c7dc15e960bc440cca051e4b5edbc6d6}
+      \strng{fullhash}{ece4998e4cfb46799989196807d1a0fa}
+      \strng{bibnamehash}{ece4998e4cfb46799989196807d1a0fa}
+      \strng{authorbibnamehash}{ece4998e4cfb46799989196807d1a0fa}
+      \strng{authornamehash}{c7dc15e960bc440cca051e4b5edbc6d6}
+      \strng{authorfullhash}{ece4998e4cfb46799989196807d1a0fa}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new colour rendering index, CRI-CAM02UCS, is proposed. It predicts visual results more accurately than the CIE CIR-Ra. It includes two components necessary for predicting colour rendering in one metric: a chromatic adaptation transform and uniform colour space based on the CIE recommended colour appearance model, CIECAM02. The new index gave the same ranks as those of CIE-Ra in the six lamps tested regardless the sample sets used. It was also found that the methods based on the size of colour gamut did not agree with those based on the test-sample method. ©{} 2011 Wiley Periodicals, Inc. Col Res Appl, 2012}
+      \field{annotation}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/col.20682}
+      \field{issn}{1520-6378}
+      \field{journaltitle}{Color Research \& Application}
+      \field{number}{3}
+      \field{title}{The {{CRI}}-{{CAM02UCS}} Colour Rendering Index}
+      \field{urlday}{21}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{volume}{37}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{160\bibrangedash 167}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1002/col.20682
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Nick\\Zotero\\storage\\T3HFE68H\\col.html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/col.20682
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/col.20682
+      \endverb
+      \keyw{CAM02-UCS,CIE-Ra,CIECAM02,CRI-CAM02UCS}
+    \endentry
     \entry{lieBreastCancerNight2006}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9d12c2a315f8aba17a4c392cb2a8f5a6}{%
@@ -4885,6 +5042,135 @@
       \endverb
       \verb{url}
       \verb https://plato.stanford.edu/archives/fall2020/entries/pineal-gland/
+      \endverb
+    \endentry
+    \entry{lucasMeasuringUsingLight2014}{article}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=f6fcc4a62ae1c15658676444b1a1d6c0}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b56822cd2148170982a50406253555ab}{%
+           family={Peirson},
+           familyi={P\bibinitperiod},
+           given={Stuart\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48765835afb27f45464cfef2700c0472}{%
+           family={Berson},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e519fd6c6f38c0280dfb84dfc175805}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f617e8d0075a3161421bc9664ddc2dbe}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Howard\bibnamedelima M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93484f56deaffadd0d380efe28d28a54}{%
+           family={Czeisler},
+           familyi={C\bibinitperiod},
+           given={Charles\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1188bfc6a2fb731ed41f2f56be870b4}{%
+           family={Figueiro},
+           familyi={F\bibinitperiod},
+           given={Mariana\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1ca1924590b274438562b7150f790c1}{%
+           family={Gamlin},
+           familyi={G\bibinitperiod},
+           given={Paul\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca9fc3a073ac3f43fe30eacdf7068b78}{%
+           family={Lockley},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b963a308f169adf94a663d2c1aa135ef}{%
+           family={O'Hagan},
+           familyi={O\bibinitperiod},
+           given={John\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865bc0d386a3a667ee70df6ba6a7d385}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={Luke\bibnamedelimb L.\bibnamedelimi A.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8ae909ccdeaaed2ed0d2cf75cea6b09}{%
+           family={Provencio},
+           familyi={P\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e96de92ff5248fb2d21afb5672b53d57}{%
+           family={Skene},
+           familyi={S\bibinitperiod},
+           given={Debra\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01f80b27ffc95cb3d74be0fe066bb600}{%
+           family={Brainard},
+           familyi={B\bibinitperiod},
+           given={George\bibnamedelima C.},
+           giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8cd258af8b6210f0b70a85518376d655}
+      \strng{fullhash}{2a72db6139e001322cea91fb2ab7f785}
+      \strng{bibnamehash}{2a72db6139e001322cea91fb2ab7f785}
+      \strng{authorbibnamehash}{2a72db6139e001322cea91fb2ab7f785}
+      \strng{authornamehash}{8cd258af8b6210f0b70a85518376d655}
+      \strng{authorfullhash}{2a72db6139e001322cea91fb2ab7f785}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Light is a potent stimulus for regulating circadian, hormonal, and behavioral systems. In addition, light therapy is effective for certain affective disorders, sleep problems, and circadian rhythm disruption. These biological and behavioral effects of light are influenced by a distinct photoreceptor in the eye, melanopsin-containing intrinsically photosensitive retinal ganglion cells (ipRGCs), in addition to conventional rods and cones. We summarize the neurophysiology of this newly described sensory pathway and consider implications for the measurement, production, and application of light. A new light-measurement strategy taking account of the complex photoreceptive inputs to these non-visual responses is proposed for use by researchers, and simple suggestions for artificial/architectural lighting are provided for regulatory authorities, lighting manufacturers, designers, and engineers.}
+      \field{issn}{0166-2236}
+      \field{journaltitle}{Trends in Neurosciences}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Measuring and Using Light in the Melanopsin Age}
+      \field{urlday}{21}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{volume}{37}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.tins.2013.10.004
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Nick\\Zotero\\storage\\U598UVUL\\Lucas et al. - 2014 - Measuring and using light in the melanopsin age.pdf;C\:\\Users\\Nick\\Zotero\\storage\\VT6BI7VT\\S0166223613001975.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0166223613001975
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0166223613001975
       \endverb
     \endentry
     \entry{magnussonTreatmentSeasonalAffective1991}{article}{}
@@ -5499,7 +5785,6 @@
       \field{volume}{140}
       \field{year}{2017}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{50\bibrangedash 60}
       \range{pages}{11}
       \verb{doi}
@@ -8382,28 +8667,6 @@
       \endverb
       \verb{url}
       \verb https://physoc.onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7793.2001.t01-1-00261.x
-      \endverb
-    \endentry
-    \entry{SustainableDevelopmentGoals}{misc}{}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{url}
-      \field{labeltitlesource}{title}
-      \field{title}{The {{Sustainable Development Goals Report}} 2016.Pdf}
-      \field{urlday}{3}
-      \field{urlmonth}{12}
-      \field{urlyear}{2020}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{file}
-      \verb C\:\\Users\\Nick\\Zotero\\storage\\5GLI25QE\\The Sustainable Development Goals Report 2016.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://unstats.un.org/sdgs/report/2016/The%20Sustainable%20Development%20Goals%20Report%202016.pdf
-      \endverb
-      \verb{url}
-      \verb https://unstats.un.org/sdgs/report/2016/The%20Sustainable%20Development%20Goals%20Report%202016.pdf
       \endverb
     \endentry
     \entry{tokumaruIncidenceCancerFemale2006}{article}{}
