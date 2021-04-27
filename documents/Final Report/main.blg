@@ -1,15 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'main.blg'
-[206] biber-MSWIN64:340> INFO - === 
-[282] Biber.pm:415> INFO - Reading 'main.bcf'
-[473] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[494] Biber.pm:4340> INFO - Processing section 0
-[510] Biber.pm:4531> INFO - Looking for bibtex format file 'FYP.bib' for section 0
-[640] bibtex.pm:1689> INFO - LaTeX decoding ...
-[1109] bibtex.pm:1494> INFO - Found BibTeX data source 'FYP.bib'
-[2807] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2807] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2807] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[2807] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[3098] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[3452] bbl.pm:757> INFO - Output to main.bbl
+[298] biber-MSWIN64:340> INFO - === 
+[405] Biber.pm:415> INFO - Reading 'main.bcf'
+[583] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[612] Biber.pm:4340> INFO - Processing section 0
+[643] Biber.pm:4531> INFO - Looking for bibtex format file 'FYP.bib' for section 0
+[748] bibtex.pm:1689> INFO - LaTeX decoding ...
+[1221] bibtex.pm:1494> INFO - Found BibTeX data source 'FYP.bib'
+[2158] Utils.pm:395> WARN - legacy year field '15 spet 2015' in entry 'unResolutionAdoptedGeneral2015' is not an integer - this will probably not sort properly.
+[2914] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2914] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2915] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[2915] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[3226] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[3547] bbl.pm:757> INFO - Output to main.bbl
+[3547] Biber.pm:128> INFO - WARNINGS: 1

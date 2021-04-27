@@ -293,6 +293,40 @@
       \endverb
       \keyw{dawn simulation,efficacy,light therapy,phototherapy,Seasonal affective disorder,winter depression}
     \endentry
+    \entry{avsdiskcreatorAVS4YOUAVSDisc2019}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f0be93c8468e4da768de5b4b7f0ee21e}{%
+           family={AVSDiskCreator},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0be93c8468e4da768de5b4b7f0ee21e}
+      \strng{fullhash}{f0be93c8468e4da768de5b4b7f0ee21e}
+      \strng{bibnamehash}{f0be93c8468e4da768de5b4b7f0ee21e}
+      \strng{authorbibnamehash}{f0be93c8468e4da768de5b4b7f0ee21e}
+      \strng{authornamehash}{f0be93c8468e4da768de5b4b7f0ee21e}
+      \strng{authorfullhash}{f0be93c8468e4da768de5b4b7f0ee21e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{AVS4YOU}} {$>>$} {{AVS Disc Creator}} {$>>$} {{Introduction}} into {{Disc Types}} {$>>$} {{Optical Disc Structure}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\Nick\\Zotero\\storage\\RMLB6Z6X\\DiscStructure.html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinehelp.avs4you.com/AVS-Disc-Creator/Introduction/DiscStructure.aspx
+      \endverb
+      \verb{url}
+      \verb https://onlinehelp.avs4you.com/AVS-Disc-Creator/Introduction/DiscStructure.aspx
+      \endverb
+    \endentry
     \entry{benderSolidStateLightingConcise2015}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1abd56489359c667466ef9dd23a047b6}{%
@@ -6323,6 +6357,48 @@
       \endverb
       \keyw{Light,Melatonin,Season}
     \endentry
+    \entry{padleckasFileFluorescentLighting2005}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2f4abc76a8baf4bebe16e29d27a448ad}{%
+           family={Padleckas},
+           familyi={P\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2f4abc76a8baf4bebe16e29d27a448ad}
+      \strng{fullhash}{2f4abc76a8baf4bebe16e29d27a448ad}
+      \strng{bibnamehash}{2f4abc76a8baf4bebe16e29d27a448ad}
+      \strng{authorbibnamehash}{2f4abc76a8baf4bebe16e29d27a448ad}
+      \strng{authornamehash}{2f4abc76a8baf4bebe16e29d27a448ad}
+      \strng{authorfullhash}{2f4abc76a8baf4bebe16e29d27a448ad}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Wikipedia}
+      \field{shorttitle}{File}
+      \field{title}{File:{{Fluorescent}} Lighting Spectrum Peaks Labelled.Svg}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\Nick\\Zotero\\storage\\VUI8UI84\\FileFluorescent_lighting_spectrum_peaks_labelled.html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/File:Fluorescent_lighting_spectrum_peaks_labelled.svg
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/File:Fluorescent_lighting_spectrum_peaks_labelled.svg
+      \endverb
+    \endentry
     \entry{papagiannakopoulosCircadianRhythmDisruption2016}{article}{}
       \name{author}{9}{}{%
         {{un=0,uniquepart=base,hash=5245b82d530d0e1671a62358397778ac}{%
@@ -8829,6 +8905,33 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0014483509002206
       \endverb
       \keyw{blue filter,blue LED,FAG,light damage,monkey,retina}
+    \endentry
+    \entry{unResolutionAdoptedGeneral2015}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0433a030f35fe613ec8cf50417323dea}{%
+           family={UN},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{fullhash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{bibnamehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authorbibnamehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authornamehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authorfullhash}{0433a030f35fe613ec8cf50417323dea}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Transforming Our World: The 2030 {{Agenda}} for {{Sustainable Development}}}
+      \field{series}{1}
+      \field{title}{Resolution Adopted by the {{General Assembly}} on 1 {{September}} 2015}
+      \field{volume}{70}
+      \field{year}{15 spet 2015}
+      \verb{file}
+      \verb C\:\\Users\\Nick\\Zotero\\storage\\SMKW59RR\\N1526986.pdf
+      \endverb
     \endentry
     \entry{universityofchicagophotographicarchiveKleitmanNathanielPhotographic}{misc}{}
       \name{author}{1}{}{%

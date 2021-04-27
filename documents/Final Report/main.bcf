@@ -2458,8 +2458,13 @@
     <bcf:citekey order="97">kruseSpectralImageProcessing1993</bcf:citekey>
     <bcf:citekey order="98">liCRICAM02UCSColourRendering2012</bcf:citekey>
     <bcf:citekey order="99">lucasMeasuringUsingLight2014</bcf:citekey>
-    <bcf:citekey order="100">groseArtificialLightNight</bcf:citekey>
-    <bcf:citekey order="101">laaksoOnehourExposureModerate1993a</bcf:citekey>
+    <bcf:citekey order="100">unResolutionAdoptedGeneral2015</bcf:citekey>
+    <bcf:citekey order="101">avsdiskcreatorAVS4YOUAVSDisc2019</bcf:citekey>
+    <bcf:citekey order="102">avsdiskcreatorAVS4YOUAVSDisc2019</bcf:citekey>
+    <bcf:citekey order="103">padleckasFileFluorescentLighting2005</bcf:citekey>
+    <bcf:citekey order="104">padleckasFileFluorescentLighting2005</bcf:citekey>
+    <bcf:citekey order="105">groseArtificialLightNight</bcf:citekey>
+    <bcf:citekey order="106">laaksoOnehourExposureModerate1993a</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

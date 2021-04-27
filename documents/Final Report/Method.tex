@@ -1,61 +1,50 @@
 
 \chapter{Methods}
-
-\section{4 Phases}
+\label{Chap:Meth}
 
 There were 4 major phases to the project: idea generation, project setup, development and research. Each of these phases was approached in a different way in acknowledgement of the differences of each.
 
-\subsection{Idea Generation}
+\section{Idea Generation}
 
 Phase I of the project was the time in which to identify a problem that could be addressed. 
 
-The initial idea was a running aid for use by natural movement specialists. Qualitative techniques were used to identify whether this would be an applicable solution to the lack of training aids for natural-running coaches. Interviews were conducted between February and September 2020 and many world-renowned athletes and trainers were consulted. These interviews were semi-structured and took approximately 45 minutes to complete over video call, and were recorded for later processing, anonymisation and interpretation; consent forms were signed by each participant confirming that they had read the information sheet provided and understood how to withdraw their data, copies of these can be found in Appendix \ref{App:Consent}.
+The initial idea was a running aid for use by natural movement specialists. Qualitative techniques were used to identify whether this would be an applicable solution to the lack of training aids for natural-running coaches. Interviews were conducted between February and September 2020 and many world renowned athletes and trainers were consulted. These interviews were semi-structured and took approximately 45 minutes to complete over video call, and were recorded for later processing, anonymisation and interpretation. Consent forms were signed by each participant confirming that they had read the information sheet provided and understood how to withdraw their data. Copies of these can be found in Appendix \ref{App:Consent}.
 
 The outcome of this process was that the industry being investigated was not in need of such a device to aid running coaching. The interviews did, however, highlight that almost all of the participants believed that some form of natural-lighting system would be beneficial for their clients and others.
 
 Once the direction had been fixed towards the natural-lighting system, the analysis of the current state of the market was undertaken. The results of this informed what the aims and objectives of the project would be, and a summary of the findings can be found in chapter \ref{Lit:solutions}.
 
-\subsection{Project Setup}
+\section{Project Setup}
 
-Once the direction of the project had been identified and confirmed as a suitable project, the groundwork began to create a solid foundation that the rest of the project could be built upon.
+Once the direction of the project had been identified and confirmed as suitable, the groundwork began to create a solid foundation that the rest of the project could be built upon.
 
 The risk assessment, security form, resources form and requirements document were all completed during this phase (See appendix \ref{App:Docs}) to ensure that the project could be undertaken safely, securely, and with an effective and sustainable use of resources. The initial project plan was also compiled to give structure to the two semesters of work (Appendix \ref{App:initialGantt}). This initial plan was drafted with the knowledge that it would change over the course of the project in the monthly reviews. Laying out an achievable but optimistic plan ensured that the project hit the ground running and began in the most effective way.
 
-Before development began, the requirements documentation was drafted. This took place in a meeting between the two hardware developers and 45 functional and non-functional requirements were determined. This 3 page document was then adjusted to create a hierarchical structure to aid the ease of understanding and allowing sub-requirements to visually link to multiple parents. The final version of this document can be found in Appendix \ref{App:Req}.
+Before development began, the requirements documentation was drafted. This took place in a meeting between the two hardware developers and 45 functional and non-functional requirements were determined. This 3 page document was then adjusted to create a hierarchical structure to aid the ease of understanding and allowing sub-requirements to visually link to multiple parents. The final version of this document can be found in Appendix \ref{App:Req}. This allowed the requirements to be split into Key Features, High-Level Requirements, Functional Requirements and Implementation Options.
 
 This phase was also used to identify the equipment that would be required to take measurements of the device, including gaining access to a hyper-spectral camera that could be used to record the output spectra. Meetings took place with Professor Darren Reynolds to arrange how access could be given. Meetings also took place to determine how the collaboration with V. Halenka would proceed; the physical design of the device would be split, but further usage and development of software was to be left to each researcher individually.
 
-\subsection{Development}
+\section{Development}
 
 This is the phase in which the device was actually produced. The tools required to capture the data that would be used to assess the results of the project were developed.
 
-The initial schematics were created before producing the first \acrshort{pcbs}. However, due to the lockdown in England beginning on the $6^{th}$ of January, these \acrshort{pcbs} could not be retrieved. For this reason - and the university rules against soldering without the on-campus facilities - a breadboard prototype was made to approximate the final device and test all the functions. This prototype was used as the main device for the purposes of gathering data later in the project. 
+The approach employed during this phase was a results-driven, de-risk oriented approach to ensure that problems were handled quickly and effectively wherever they arose. This meant that from early in this phase, the ability to create data for the purposes of the study could occur, in one form or another.
 
-Once it had been confirmed that the breadboard prototype functioned fully and correctly, a new set of \acrshort{pcbs} were ordered, this time with high confidence of them working. More about the specifics of the hardware can be found in chapter \ref{}.
+Chapter \ref{Sec:physicalOuts} discusses in detail the process and outcomes of this section of the project, including technical content relating to the development of the device and test equipment.
 
-Alongside the hardware development was the production of the simulator; created in LabVIEW, it was designed to approximate the spectral output of the device to be used to develop the spectra that would be implemented without having to have constant access to the measurement facilities.
+\section{Research}
 
-Measuring the actual device was also made significantly harder due to the lockdown. Access to the hyperspectral camera was revoked in line with the stay-at-home order. An alternative method for recording the spectra had to be found. Many potential solutions were discussed with machine vision specialists, but many of the proposed solutions were applicable as they could not capture the entire spectrum.
+During the final phase of the project, the results were gathered using the methods discussed below. The simulator was calibrated using measurements from the spectrometer to ensure that the graphs that it output were close to the true spectral output of the device. This meant the spectra that would emulate the solar output could be created in software, saving the time that would need to be used to implement them on hardware and measure the outputs.
 
-A spectrometer that could achieve full visible-spectrum range was produced (as discussed in chapter \ref{}) which could be used to gather the spectral data from the device.
+The spectral data needed to be extracted from the spectrometer images before it could be used. For this, the Tracker Physics software was used, in which a line profile could be drawn across the spectrum to determine the relative power of each point. However, the software required the calibration function to be manually loaded into each image to be extracted. 
 
-The approach employed during this phase was results-driven, de-risk oriented approach to ensure that problems were handled quickly and effectively wherever they arose. This meant that from early in this phase, the ability to create data for the purposes of the study could occur, in one form or another.
-
-\subsection{Research}
-
-The final phase of the project, the results were gathered using the methods discussed below. The simulator was calibrated using measurements from the spectrometer to ensure that the graphs that it output were close to the true spectral output of the device. This meant the spectra that would emulate the solar output could be created in software, saving the time that would need to be used to implement them on hardware and measure the outputs.
-
-The spectral data needed to be extracted from the spectrometer images before it could be used. For this, the Tracker Physics software was used in which a line profile could be drawn across the spectrum to determine the relative power of each point. However, the software required the calibration function to be manually loaded into each image to be extracted. 
-
-To streamline this process, another LabVIEW program was created, based off code generated from National Instrument's Vision Assistant. This allowed dozens of images to be converted in seconds once the calibration had been done in Tracker Physics. 
-
-\section{Research Methods}
+To streamline this process, another LabVIEW program was created, based on code generated from National Instrument's Vision Assistant. This allowed dozens of images to be converted in seconds once the calibration had been done in Tracker Physics. The code for this can be viewed in Appendix \ref{App:Analyse}. This code extracts the RGB channels from the image at a given height. The average value is then calculated for each pixel across the line and saved. An image of the resulting spectrum is also output.
 
 \subsection{Methodology}
 
-The research was undertaken with quantitative techniques such that numerate analysis could be done on the data. This allowed for concrete analysis of many of the aims and requirements, employing a logical approach to the assessment of the success of the project.
+The research was undertaken with quantitative techniques ins such a way that numerate analysis could be done on the data. This allowed for concrete analysis of many of the aims and requirements, employing a logical approach to the assessment of the success of the project.
 
-By collecting quantitative data, the device can easily be compared to other devices within the same field; this way, the results of this study can be immediately put into context of the real world.
+By collecting quantitative data, the device can easily be compared to other devices within the same field; this way, the results of this study can be immediately put into the context of the real world.
 
 \subsection{Data Collection}
 
@@ -74,18 +63,17 @@ Rods              & Rod Opsin   & Rhodopic lux
 \end{table*}
 
 
+Four spectra were created and assessed: \acrfull{morning}, \acrfull{afternoon}, \acrfull{evening}, \acrfull{night}. These spectra were created using the LabVIEW simulator to calculate the LED values required to produce them. They were then implemented on the device and measured again with the spectrometer to ensure accuracy.
 
-Four spectra were created and assessed: \acrfull{morning}, \acrfull{afternoon}, \acrfull{evening}, \acrfull{night}. These spectra were created using the LabVIEW simulator to calculate the LED values required to produce them. The created spectra were then implemented on the device and measured again with the spectrometer to ensure accuracy.
+The simulator was then used to create \acrfull{spd} graphs that were analogous to the physical outputs, and could be binned at any wavelength increment. Only the visual spectrum was considered, due to limitations in the measuring equipment.
 
-The simulator was then used to create \acrfull{spd} graphs that were analogous to the physical outputs, and could be binned at any wavelength increment. Only the visual spectrum was considered due to limitations in the measuring equipment.
+A \gls{lux} meter was then calibrated using a known source (a 230 lumen LED bulb) and used to calculate the \gls{flux} of the device which could then be expressed in $\mu W cm^{-2} nm^{-1}$, the standard units for \gls{flux} used when comparing lighting spectra.
 
-A \gls{lux} meter was then calibrated using a known source and used to calculate the \gls{flux} of the device which could then be expressed in $\mu W cm^{-2} nm^{-1}$, the standard units for \gls{flux} used when comparing lighting spectra.
-
-Reference datasets were gathered from fluxometer.com \citep{f.luxsoftwarellcLuxometer} for the \gls{solar} throughout the day, as well as a firelight spectrum for the night, and a sample of standard lights for comparison of results. f.luxometer was chosen as it carries a wide range of open-source spectra including many solar spectra. The curators of this data ensure that it is of high quality, and all their work is backed up by a large body of research.
+Reference datasets were gathered from fluxometer.com \citep{f.luxsoftwarellcLuxometer} for the \gls{solar} throughout the day, as well as a firelight spectrum for the night, and a sample of standard lights for comparison of results. f.luxometer was chosen as it carries a wide range of open-source spectra including many solar spectra. The curators of this data ensure that it is of high quality, and all their work is backed up by a large body of research (found at fluxometer.com).
 
 \subsection{Methods of Analysis}
 
-After the spectra had been normalised, they could then be compared using Matlab where the \acrfull{sam} was used to determine the similarity of each spectrum to its respective reference spectrum suing a spectral angle error metric \citep{kruseSpectralImageProcessing1993}. This was repeated for the other lights so comparisons could be drawn as to how effective the device is at mimicking the \gls{solar}. The \acrshort{sam} is given by:
+After the spectra had been normalised, they could then be compared using Matlab where the \acrfull{sam} was used to determine the similarity of each spectrum to its respective reference spectrum suing a spectral angle error metric \citep{kruseSpectralImageProcessing1993}. This was repeated for the other lights, so that comparisons could be drawn as to how effective the device is at mimicking the \gls{solar}. The \acrshort{sam} is given by:
 
 \begin{equation}
 cos^{-1}\left(\frac{\sum\limits_{i=1}^{nb} t_i r_i}{\left(\sum\limits_{i=1}^{nb} t_i^2\right)^{1/2}\left(\sum\limits_{i=1}^{nb} r_i^2\right)^{1/2}}\right)
@@ -95,9 +83,19 @@ cos^{-1}\left(\frac{\sum\limits_{i=1}^{nb} t_i r_i}{\left(\sum\limits_{i=1}^{nb}
 where: $t=$test spectrum, $r=$reference spectrum, $nb=$number of bands
 \end{center}
 
-The \acrfull{cri} was also tested using the standard techniques \citep{liCRICAM02UCSColourRendering2012}. This is the ability for the light to correctly illuminate certain colours; a low \acrshort{cri} means that colours illuminated by this light would not look accurate to their true colour. This analysis was also conducted on the comparison illuminants.
+While this is used to compare the similarity between two given spectra, it was developed to identify component elements of materials using their hyper-spectral properties. This may mean that it is not well suited to smooth and broad spectra, such as the solar spectra being studied here. However, this is the most appropriate way to compare the morphologies of the results, though the numbers should be used only to supplement the other findings.
+
+The \acrfull{cri} was also tested using the standard techniques \citep{liCRICAM02UCSColourRendering2012}. This is the ability for the light to correctly illuminate colours; a low \acrshort{cri} means that colours illuminated by this light would not look accurate to their true colour. This analysis was also conducted on the comparison illuminants.
 
 
-Photometric measures that effect the circadian rhythm were also examined, with the effects of the light on each of the 5 photopigments (listed in Table \ref{Tab:photometrics}) being quantified as per the techniques laid out by \citet{lucasMeasuringUsingLight2014}. These responses correspond to how the light will affect the circadian rhythm and other neurophysiological effects within the users. Comparisons of the effects of standard lights and the produced device are drawn to understand whether this is an improvement on existing solutions.
+Photometric measures that effect the circadian rhythm were also examined, with the effects of the light on each of the 5 photopigments (listed in Table \ref{Tab:photometrics}) being quantified as per the techniques laid out by \citet{lucasMeasuringUsingLight2014}. These responses correspond to how the light will affect the circadian rhythm and other neurophysiological effects on the users. Comparisons of the effects of standard lights and the produced device are drawn to understand whether this is an improvement on existing solutions.
 
 These techniques were selected as they would answer the questions as to the relevant performance of the device as stated in the requirements document (Appendix \ref{App:Req}). The quantification of these factors has been approached in the ways most relevant and have scientific backing in the fact that they are broadly used in the literature.
+
+\section{Wider Impact}
+
+No engineering can be undertaken without it having a wider impact on the world around us. This project is no exception, but every care has been taken to ensure the ethical, environmental, and financial sustainability of this project. The project itself has been undertaken with the UN sustainable development goals in mind all the time \citep{unResolutionAdoptedGeneral2015}. Goals 3 and 11 - good health and well-being and sustainable cities and communities are the two most relevant to this project as it is trying to bring affordable, health-promoting lighting technology to the built environment.
+
+However, the device still requires production, and while lead has been avoided and the device is fully RoHS compliant, due to the nature of electronics, it is hard to recycle. This is not abnormal for lighting, however, and the modular design was used to reduce waste; modules can be replaced or upgraded independently of each other. This device is also designed to be long-lasting - hence the use of LEDs. These considerations were implemented to minimise the negative long-term effect of the device.
+
+Larger scale manufacturing has not been considered in this project, but would incur a much larger environmental impact. The cost of the project was a limiting factor, and for manufacture, JLCPCB would likely not be used for \acrshort{pcbs}. The prototypes that were made were air-freighted to ensure the limited time of the project could be adhered to (especially with the pandemic situation). This has much higher environmental consequences than if the PCBs had been shipped, or produced locally.

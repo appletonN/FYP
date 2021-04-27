@@ -38,11 +38,16 @@
 
 \usepackage{titling} % Customizing the title section
 
+\usepackage{pdflscape}
+
 \usepackage{hyperref} % For hyperlinks in the PDF
 
 \usepackage{pdfpages}
 
 \usepackage{csquotes}
+
+\usepackage{caption}
+\usepackage{subcaption}
 
 
 \usepackage[backend=biber, style=authoryear, maxnames=999, maxcitenames=3, urldate=long, natbib=true]{biblatex}
@@ -137,8 +142,12 @@
 
 \newcommand{\citefirstlastauthor}{\AtNextCite{\DeclareNameAlias{labelname}{given-family}}\citeauthor}
 
+\usepackage{multirow}
+
 
 \linespread{1.25}
+
+
 
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
@@ -179,7 +188,7 @@
         Designing a modular, human-centric lighting system   
         
         \pageref{Lastpage} pages; 
-        \input{WordCount.sum}words
+        \input{WordCount.sum}words \\ (main text only)
             
         \vspace{0.8cm}
             
@@ -206,7 +215,7 @@ All of the work contained in this document is solely the work of N. Appleton.
 ~ \vfill
 \end{titlepage}
 
-\setcounter{tocdepth}{1	}
+\setcounter{tocdepth}{1}
 \tableofcontents 
 \clearpage \newpage
 
@@ -223,81 +232,14 @@ All of the work contained in this document is solely the work of N. Appleton.
 
 \input{Method}
 
+\input{Results}
 
-% RESULTS
-% - physical outputs: equipment, pcbs, camera, etc.
-% - outputs from device and stuff
+\input{Analysis}
+
 
 %----------------------------------------------------------------------------------------
 \label{Lastpage}
-\clearpage
-\newpage
 
-\printbibliography[title={References},category=cited, heading=bibintoc]% default title for `article` class: "References"
-
-\printbibliography[notcategory=cited, heading=bibintoc]
-
-\clearpage
-
-\printnoidxglossaries
-
-\appendix
-
-\chapter{Project Documents}
-\label{App:Docs}
-
-\clearpage
-
-\section{Device Requirements}
-\label{App:Req}
-
-\includepdf[angle=90, width=.75\textheight, offset=0 -2cm]{PDFs/requirements.pdf}
-
-
-\section{Gantt Charts}
-\label{App:Gantt}
-
-\subsection{Nov $15^{th}$ 2020 (initial)}
-\label{App:initialGantt}
-
-\includepdfmerge[nup=2x2]{PDFs/Gantts/nov15/ProjectSetup.pdf, PDFs/Gantts/nov15/Documents.pdf, PDFs/Gantts/nov15/Hardware.pdf, PDFs/Gantts/nov15/Research.pdf}
-
-\subsection{Dec $12^{th}$ 2020}
-
-\includepdfmerge[nup=2x2]{PDFs/Gantts/dec12/Setup.pdf, PDFs/Gantts/dec12/Docs.pdf, PDFs/Gantts/dec12/Hardware.pdf, PDFs/Gantts/dec12/Research.pdf}
-
-\subsection{Jan $26^{th}$ 2021}
-
-\includepdfmerge[nup=2x2]{PDFs/Gantts/jan26/Admin.pdf, PDFs/Gantts/jan26/Hardware.pdf, PDFs/Gantts/jan26/Hardware(upcoming).pdf, PDFs/Gantts/jan26/Research.pdf}
-
-\subsection{Feb $17^{th}$ 2021}
-
-\includepdfmerge[nup=2x2]{PDFs/Gantts/feb17/Admin.pdf, PDFs/Gantts/feb17/Hardware.pdf, PDFs/Gantts/feb17/Research.pdf}
-
-\subsection{Apr $2^{nd}$ 2021}
-
-\includepdfmerge[nup=2x2]{PDFs/Gantts/apr2/Admin.pdf, PDFs/Gantts/apr2/Hardware.pdf, PDFs/Gantts/apr2/Research.pdf}
-
-\section{Risk Assessment}
-\label{App:Risk}
-
-\includepdf[width=.75\textheight, offset=0 -2cm]{PDFs/RiskAssessment.pdf}
-
-\section{Resources}
-\label{App:Resources}
-
-\includepdf[width=.75\textheight, offset=0 -2cm]{PDFs/resources.pdf}
-
-\section{Security}
-\label{App:Security}
-
-\includepdf[width=.75\textheight, offset=0 -2cm]{PDFs/security.pdf}
-
-
-\section{Interview Documents}
-\label{App:Consent}
-
-\includepdf[page=-,nup=2x2]{PDFs/Consent.pdf}
-
+\input{Appendicies}
 
 \end{document}
